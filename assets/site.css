@@ -12,6 +12,8 @@ header{border-bottom:1px solid rgba(124,153,166,.2)}
 .mark .b{font-weight:800;letter-spacing:.02em}
 .nav nav{display:flex;gap:22px;font-size:.82rem;color:var(--slate);flex-wrap:wrap}
 .nav nav a:hover{color:var(--pale)}
+.nav nav a.forskye{color:var(--ask);border:1px solid var(--ask);border-radius:20px;padding:4px 12px;font-weight:500}
+.nav nav a.forskye:hover{background:var(--ask);color:var(--ink)}
 .eyebrow{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--glow)}
 .crumb{font-size:.72rem;color:var(--slate);padding:18px 0 0}
 .crumb a:hover{color:var(--pale)}
