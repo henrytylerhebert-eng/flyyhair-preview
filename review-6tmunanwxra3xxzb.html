@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Questions for Skye — internal, not public</title>
+<meta name="description" content="Internal intake questions. Not indexed, not linked from the site.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head><body>
+<div class="banner">Mock site &middot; real data, unbranded imagery, nothing deployed</div>
+<header><div class="wrap"><div class="nav">
+  <a class="mark" href="index.html"><span class="s">Flyy</span><span class="b">HAIR</span></a>
+  <nav><a href="collections/shop-all.html">Shop</a><a href="collections/weft-bundles.html">Bundles</a><a href="collections/5x5-hd-lace-closures.html">Closures</a><a href="collections/bundle-deals.html">Bundle Deals</a><a href="collections/hair-extensions-lafayette.html">Lafayette</a><a href="book.html">Book</a><a href="installing-elsewhere.html">Installing elsewhere</a></nav>
+</div></div></header>
+
+<div class="wrap">
+<style>
+.qawrap{max-width:820px;margin:0 auto}
+.qahead{background:var(--ask);color:var(--ink);padding:22px 26px;margin:30px 0 0}
+.qahead strong{font-family:Fraunces,serif;font-size:1.1rem;display:block;margin-bottom:6px}
+.qahead p{font-size:.85rem}
+.qsec{margin-top:44px}
+.qsec>h2{font-size:1.35rem;margin-bottom:6px}
+.qsec>.sub{color:var(--slate);font-size:.86rem;margin-bottom:8px}
+.qsec>.ref{font-size:.66rem;color:var(--slate);opacity:.6;font-family:ui-monospace,monospace;margin-bottom:20px}
+.qa{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:18px 0;border-top:1px solid rgba(124,153,166,.18)}
+.qn{font-family:Fraunces,serif;font-size:1rem;color:var(--glow);padding-top:1px}
+.qq{font-size:1rem;color:var(--pale);font-weight:500}
+.qw{font-size:.84rem;color:var(--slate);margin-top:6px}
+.qb{font-size:.78rem;color:var(--ask);margin-top:7px}
+.top5{background:var(--ink2);border-left:3px solid var(--ask);padding:24px 26px;margin-top:26px}
+.top5 ol{margin:12px 0 0 20px}.top5 li{padding:5px 0;font-size:.92rem}
+.chart{width:100%;border-collapse:collapse;margin-top:14px;font-size:.88rem}
+.chart th{text-align:left;font-size:.6rem;letter-spacing:.07em;text-transform:uppercase;color:var(--slate);padding:8px 6px;border-bottom:1px solid rgba(124,153,166,.3);font-weight:500}
+.chart td{padding:9px 6px;border-bottom:1px solid rgba(124,153,166,.12)}
+.chart .fill{background:rgba(217,168,78,.12);color:var(--ask);text-align:center;font-size:.8rem}
+.chart .has{color:var(--sage);font-size:.82rem}
+.chart tr.gap td:first-child{color:var(--ask);font-weight:500}
+</style>
+<div class="qawrap">
+
+  <div class="qahead">
+    <strong>Skye — this page is just for you and Tyler</strong>
+    <p>It isn't linked from the site and search engines can't see it. We'll delete it once we have
+    your answers. Nothing here is a test &mdash; these are the things we genuinely can't answer for
+    you, and we'd rather leave them blank than guess and put a wrong number in front of a client.</p>
+  </div>
+
+  <div class="top5">
+    <strong style="font-family:Fraunces,serif;font-size:1.05rem">If you only answer five things, answer these</strong>
+    <ol>
+      <li><strong>Check the price list below</strong> &mdash; every number that will go into the store</li>
+      <li>The bundle chart &mdash; how many bundles for each length</li>
+      <li>What the hair actually is (type, where it's from, whether it's been processed)</li>
+      <li>Who physically packs and ships an order &mdash; you, or a supplier?</li>
+      <li>Do you keep hair in stock, and are you registered for Louisiana sales tax?</li>
+    </ol>
+  </div>
+
+
+  <div class="qsec">
+    <h2 style="color:var(--ask)">Before anything else &mdash; check these numbers</h2>
+    <p class="sub">This is every price that will go into the store. <strong>32
+    items</strong> across 3 products. If one number is wrong here, it's wrong
+    on the site, wrong at checkout, and wrong on the receipt &mdash; so this is the one section worth
+    reading line by line.</p>
+    <p class="ref">source: cms/exports/flyyhair-products-reconciled.json &rarr; cms/exports/shopify-products.csv</p>
+
+    <div class="qahead" style="background:rgba(217,168,78,.14);color:var(--pale);border-left:3px solid var(--ask);margin:0 0 26px">
+      <strong style="color:var(--ask)">Why we're asking you to double-check</strong>
+      <p>A product file came through with <strong>8 prices that didn't match your list</strong>
+      &mdash; they'd been filled in by guessing at the gaps between your lowest and highest length.
+      We caught it and put your real numbers back. But it's the reason we want your eyes on this
+      before it loads, not after.</p>
+    </div>
+
+    <h3 style="font-size:1.05rem;margin:26px 0 2px">5x5 HD Lace Closure</h3>
+    <p style="font-size:.78rem;color:var(--slate)">Every length below exists in <strong>both</strong> Body Wave and Loose Wave at the same price.</p>
+    
+    <table class="chart">
+      <thead><tr><th>Length</th><th>Price</th><th>SKUs (Body Wave / Loose Wave)</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>12&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$150</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-CL-BW-12 &middot; FH-CL-LW-12</td>
+        </tr>
+        <tr>
+          <td>14&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$155</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-CL-BW-14 &middot; FH-CL-LW-14</td>
+        </tr>
+        <tr>
+          <td>16&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$170</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-CL-BW-16 &middot; FH-CL-LW-16</td>
+        </tr>
+        <tr>
+          <td>18&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$175</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-CL-BW-18 &middot; FH-CL-LW-18</td>
+        </tr>
+        <tr>
+          <td>20&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$195</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-CL-BW-20 &middot; FH-CL-LW-20</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 style="font-size:1.05rem;margin:26px 0 2px">Weft Bundle</h3>
+    <p style="font-size:.78rem;color:var(--slate)">Every length below exists in <strong>both</strong> Body Wave and Loose Wave at the same price.</p>
+    
+    <table class="chart">
+      <thead><tr><th>Length</th><th>Price</th><th>SKUs (Body Wave / Loose Wave)</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>12&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$80</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-12 &middot; FH-WB-LW-12</td>
+        </tr>
+        <tr>
+          <td>14&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$95</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-14 &middot; FH-WB-LW-14</td>
+        </tr>
+        <tr>
+          <td>16&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$100</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-16 &middot; FH-WB-LW-16</td>
+        </tr>
+        <tr>
+          <td>18&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$115</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-18 &middot; FH-WB-LW-18</td>
+        </tr>
+        <tr>
+          <td>20&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$125</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-20 &middot; FH-WB-LW-20</td>
+        </tr>
+        <tr>
+          <td>22&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$145</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-22 &middot; FH-WB-LW-22</td>
+        </tr>
+        <tr>
+          <td>24&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$165</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-24 &middot; FH-WB-LW-24</td>
+        </tr>
+        <tr>
+          <td>26&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$180</td>
+          
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-WB-BW-26 &middot; FH-WB-LW-26</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 style="font-size:1.05rem;margin:26px 0 2px">Bundle Deal Boarding Pass (2-Piece Set)</h3>
+    <p style="font-size:.78rem;color:var(--slate)">Every length below exists in <strong>both</strong> Body Wave and Loose Wave at the same price.</p>
+    
+    <table class="chart">
+      <thead><tr><th>Length</th><th>Price</th><th>Look</th><th>SKUs (Body Wave / Loose Wave)</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>12&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$150</td>
+          <td style="color:var(--slate)">Bob</td>
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-BD-BW-12 &middot; FH-BD-LW-12</td>
+        </tr>
+        <tr>
+          <td>14&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$165</td>
+          <td style="color:var(--slate)">Shoulder</td>
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-BD-BW-14 &middot; FH-BD-LW-14</td>
+        </tr>
+        <tr>
+          <td>18&Prime;</td>
+          <td style="color:var(--glow);font-weight:500">$200</td>
+          <td style="color:var(--slate)">Natural Length</td>
+          <td style="font-family:ui-monospace,monospace;font-size:.72rem;color:var(--slate)">FH-BD-BW-18 &middot; FH-BD-LW-18</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:30px;background:var(--ink2);padding:20px 24px;border-left:3px solid rgba(124,153,166,.5)">
+      <strong style="font-family:Fraunces,serif;font-size:.98rem;display:block;margin-bottom:10px">The 8 numbers we corrected</strong>
+      <table class="chart" style="margin-top:0">
+        <thead><tr><th>Product</th><th>Length</th><th>Came through as</th><th>We used your price</th></tr></thead>
+        <tbody>
+          <tr>
+            <td style="font-size:.84rem">5x5 HD Lace Closure</td><td>14&quot;</td>
+            <td style="color:var(--ask)">$160</td>
+            <td style="color:var(--sage);font-weight:500">$155</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">5x5 HD Lace Closure</td><td>16&quot;</td>
+            <td style="color:var(--ask)">$175</td>
+            <td style="color:var(--sage);font-weight:500">$170</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">5x5 HD Lace Closure</td><td>18&quot;</td>
+            <td style="color:var(--ask)">$185</td>
+            <td style="color:var(--sage);font-weight:500">$175</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">Weft Bundle</td><td>16&quot;</td>
+            <td style="color:var(--ask)">$110</td>
+            <td style="color:var(--sage);font-weight:500">$100</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">Weft Bundle</td><td>18&quot;</td>
+            <td style="color:var(--ask)">$125</td>
+            <td style="color:var(--sage);font-weight:500">$115</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">Weft Bundle</td><td>20&quot;</td>
+            <td style="color:var(--ask)">$140</td>
+            <td style="color:var(--sage);font-weight:500">$125</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">Weft Bundle</td><td>22&quot;</td>
+            <td style="color:var(--ask)">$155</td>
+            <td style="color:var(--sage);font-weight:500">$145</td>
+          </tr>
+          <tr>
+            <td style="font-size:.84rem">Weft Bundle</td><td>24&quot;</td>
+            <td style="color:var(--ask)">$170</td>
+            <td style="color:var(--sage);font-weight:500">$165</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size:.8rem;color:var(--slate);margin-top:12px">If any of the amber numbers are
+      actually right and your list is out of date, say so &mdash; we'll use whichever you confirm.</p>
+    </div>
+
+    <div style="margin-top:26px">
+      <strong style="font-family:Fraunces,serif;font-size:.98rem;display:block;margin-bottom:6px">Three set-up choices we made &mdash; tell us if any are wrong</strong>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">P1</div>
+      <div>
+        <p class="qq">We put all three Bundle Deals on one page with a length picker, instead of three separate pages.</p>
+        <p class="qw">A shopper picks 12", 14" or 18" from a dropdown rather than hunting three listings. Simpler for them — but it means "Bob Bundle" and "Shoulder Bundle" stop being their own products.</p>
+        <p class="qb">Until we know: we go with the single page.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">P2</div>
+      <div>
+        <p class="qq">We made Bundle Deals available in both Body Wave and Loose Wave.</p>
+        <p class="qw">Your price list doesn't say which texture a deal comes in, so we let the buyer choose. If a deal is only one texture, this is wrong.</p>
+        <p class="qb">Until we know: buyers can pick either texture.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">P3</div>
+      <div>
+        <p class="qq">Nothing goes on sale to the public until you say so.</p>
+        <p class="qw">Every item loads as a draft — invisible to shoppers. Someone has to switch each one on deliberately. Nothing can sell by accident.</p>
+        <p class="qb">Until we know: everything stays hidden.</p>
+      </div>
+    </div>
+
+    <div class="qahead" style="background:var(--ink2);color:var(--pale);border-left:3px solid var(--sage);margin-top:26px">
+      <strong>Sign-off</strong>
+      <p>Once you tell us these 32 prices are
+      right, we load them as drafts and they stop being editable in a spreadsheet &mdash; they become
+      the store's real numbers. Changes after that happen in Shopify.</p>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>1. The bundle chart</h2>
+    <p class="sub">This is the single most valuable thing you can give us. It's the question every
+    client asks before they buy, and right now the site can't answer it for most of your lengths &mdash;
+    so it tells them to message you, which is exactly the DM traffic we're trying to take off your plate.</p>
+    <p class="ref">register: new item &middot; blocks: product-page guidance for 5 of 8 lengths</p>
+
+    <p style="font-size:.88rem;color:var(--slate);margin-bottom:6px">Your Bundle Deals already answer
+    three lengths. We need the rest &mdash; and for the ones you've covered, we're guessing that
+    &ldquo;two bundles&rdquo; means a lighter look rather than a full one, since your own 18&Prime;
+    description says <em>&ldquo;minimal lightweight&rdquo;</em>. Correct us if that's wrong.</p>
+
+    <table class="chart">
+      <thead><tr><th>Length</th><th>Price each</th><th>For a natural / lighter look</th><th>For a full look</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>12&Prime;</td><td>$80</td>
+          <td class="has">2 &mdash; per your Bundle Deal. Right?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr>
+          <td>14&Prime;</td><td>$95</td>
+          <td class="has">2 &mdash; per your Bundle Deal. Right?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr class="gap">
+          <td>16&Prime;</td><td>$100</td>
+          <td class="fill">?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr>
+          <td>18&Prime;</td><td>$115</td>
+          <td class="has">2 &mdash; per your Bundle Deal. Right?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr class="gap">
+          <td>20&Prime;</td><td>$125</td>
+          <td class="fill">?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr class="gap">
+          <td>22&Prime;</td><td>$145</td>
+          <td class="fill">?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr class="gap">
+          <td>24&Prime;</td><td>$165</td>
+          <td class="fill">?</td>
+          <td class="fill">?</td>
+        </tr>
+        <tr class="gap">
+          <td>26&Prime;</td><td>$180</td>
+          <td class="fill">?</td>
+          <td class="fill">?</td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <div class="qa">
+      <div class="qn">1a</div>
+      <div>
+        <p class="qq">Does a closure replace one of those bundles, or is it on top?</p>
+        <p class="qw">Changes every total on the site. A client ordering 3 bundles plus a closure when they needed 2 plus a closure has overspent, and the reverse means a thin install.</p>
+        <p class="qb">Until we know: we can't total a full look correctly.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">1b</div>
+      <div>
+        <p class="qq">Is the count different for a wig unit versus a sew-in?</p>
+        <p class="qw">Your menu prices closure wig installation separately from sew-ins, so we suspect it might be.</p>
+        <p class="qb">Until we know: wig buyers get sew-in guidance.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">1c</div>
+      <div>
+        <p class="qq">Anything you'd refuse to do? A length or count that just doesn't work?</p>
+        <p class="qw">If 2 bundles at 26" looks bad, we should say so before someone spends $360 on it.</p>
+        <p class="qb">Until we know: the site will happily sell a combination you'd talk someone out of.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>2. What the hair actually is</h2>
+    <p class="sub">Every product page currently says these are &ldquo;being confirmed.&rdquo; That's
+    honest and it's fine for your regulars &mdash; they trust you. It won't hold up when someone in
+    another state is deciding whether to spend $600 with a brand they've never heard of.</p>
+    <p class="ref">register #25 &middot; blocks: national sales, product descriptions, any spec on any page</p>
+    
+    <div class="qa">
+      <div class="qn">2a</div>
+      <div>
+        <p class="qq">What type of hair is it? Is there a term your supplier uses on the invoice?</p>
+        <p class="qw">We will only publish a word you actually have backing for. If the supplier says one thing and you're not sure it's true, tell us that too — we'd rather say nothing.</p>
+        <p class="qb">Until we know: no hair type appears anywhere.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">2b</div>
+      <div>
+        <p class="qq">Do you know where it comes from, and can you show it in writing?</p>
+        <p class="qw">Origin claims need documentation. Without paperwork we leave it off entirely — that's a legal line, not a preference.</p>
+        <p class="qb">Until we know: no origin claim, which is safer than a wrong one.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">2c</div>
+      <div>
+        <p class="qq">Has it been chemically processed or steam-treated?</p>
+        <p class="qw">Affects whether a client can colour it and what a stylist elsewhere needs to know.</p>
+        <p class="qb">Until we know: we can't answer "can I dye this?"</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">2d</div>
+      <div>
+        <p class="qq">Can it be coloured? Have you coloured this specific hair yourself?</p>
+        <p class="qw">You offer colour services on extensions, so you've almost certainly tested this. Your first-hand answer is worth more than a supplier's claim.</p>
+        <p class="qb">Until we know: the colour question goes unanswered on a site that sells colour services.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">2e</div>
+      <div>
+        <p class="qq">Roughly how many grams is a bundle?</p>
+        <p class="qw">Standard spec buyers compare on. Just the number from the packaging is fine.</p>
+        <p class="qb">Until we know: we can't list a weight.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">2f</div>
+      <div>
+        <p class="qq">Anything you would NOT want us to claim?</p>
+        <p class="qw">We already avoid "no shedding", "tangle free" and lifespan promises — those need proof we don't have. Tell us if there's anything else you've seen oversold in this industry.</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>3. Do you use this hair in your own installs?</h2>
+    <p class="sub">Short section because it's one question, but it might be the most persuasive
+    sentence on the whole site.</p>
+    <p class="ref">register: new &middot; unlocks: the strongest true claim available</p>
+    
+    <div class="qa">
+      <div class="qn">3a</div>
+      <div>
+        <p class="qq">When a client doesn't bring their own, is this the hair you reach for?</p>
+        <p class="qw">If yes, "the hair she uses in her own chair" is worth more than any spec sheet — and it's the one thing a national competitor can never say. If it's not the same hair, we need to know that before we imply otherwise.</p>
+        <p class="qb">Until we know: we can't make the claim at all.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>4. How an order actually works</h2>
+    <p class="sub">These decide whether we can turn shipping on at all. Right now the site says
+    &ldquo;ships in 5&ndash;7 business days&rdquo; and deliberately stops short of promising a
+    delivery date, because we don't know who's doing the shipping.</p>
+    <p class="ref">register #7, #11, #14, #8 &middot; blocks: launch</p>
+    
+    <div class="qa">
+      <div class="qn">4a</div>
+      <div>
+        <p class="qq">Do you keep hair in stock, order it per sale, or does a supplier ship direct?</p>
+        <p class="qw">Determines whether we can show real inventory, and whether 5–7 days is achievable.</p>
+        <p class="qb">Until we know: nothing can be published for sale — this is the hard blocker.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">4b</div>
+      <div>
+        <p class="qq">Who physically packs and ships? You, or someone else?</p>
+        <p class="qw">The 5–7 day promise depends entirely on this.</p>
+        <p class="qb">Until we know: we can't state a shipping time as a commitment.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">4c</div>
+      <div>
+        <p class="qq">Are you registered to collect Louisiana sales tax?</p>
+        <p class="qw">If not, registration can take weeks. Better to find out now than a week before launch.</p>
+        <p class="qb">Until we know: checkout can't legally collect tax.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">4d</div>
+      <div>
+        <p class="qq">Do you want local pickup? And is 1003 Louisiana Ave yours to offer for that?</p>
+        <p class="qw">Your StyleSeat lists that address, but it's registered to Suave House Beauty Salon. If you rent a suite there, pickup means clients collecting from someone else's salon — which needs the owner's okay before we publish it.</p>
+        <p class="qb">Until we know: no pickup option.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">4e</div>
+      <div>
+        <p class="qq">Do you want to ship outside the US?</p>
+        <p class="qw">Your store is currently set up for 28 countries, which we think is a Shopify default nobody changed. International orders against a US-only promise create customs problems.</p>
+        <p class="qb">Until we know: we'll assume US-only and trim it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>5. Returns &mdash; the awkward one</h2>
+    <p class="sub">Hair is hygiene-sensitive, so nobody in this category takes it back once it's been
+    worn. That's normal and expected. But your StyleSeat bio says <strong>&ldquo;No Refunds&rdquo;</strong>
+    for services, and stacking a hard product policy on top of that is where people get annoyed enough
+    to say so publicly.</p>
+    <p class="ref">register #12 &middot; blocks: two required policy pages</p>
+    
+    <div class="qa">
+      <div class="qn">5a</div>
+      <div>
+        <p class="qq">Unopened and unused hair — would you take it back?</p>
+        <p class="qw">Refund, store credit, or nothing at all. All three are defensible; we just need to write what you'll actually honour.</p>
+        <p class="qb">Until we know: no return policy page, which Shopify needs before launch.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">5b</div>
+      <div>
+        <p class="qq">Would you charge a restocking fee?</p>
+        <p class="qw">The site we looked at as a reference charges $35. Worth knowing that their own reviews complain about it.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">5c</div>
+      <div>
+        <p class="qq">If a package is lost or damaged in transit, who eats it?</p>
+        <p class="qw">This is separate from returns and needs its own policy. Route and Shippo both cover it — but paying for both would be paying twice.</p>
+        <p class="qb">Until we know: we can't say what happens when a parcel goes missing.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">5e</div>
+      <div>
+        <p class="qq">Do Bundle Deals come in a specific texture, or does the buyer pick?</p>
+        <p class="qw">Your price list doesn't say. We've set them up so the buyer chooses Body Wave or Loose Wave — tell us if that's wrong.</p>
+        <p class="qb">Until we know: we're assuming buyer's choice.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">5d</div>
+      <div>
+        <p class="qq">Should Bundle Deals include a closure?</p>
+        <p class="qw">None of the three tiers list one right now. If that's intentional we'll say so plainly; if it's an oversight we'd rather fix it before launch.</p>
+        <p class="qb">Until we know: we say "no closure included" and leave it there.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>6. The chair-side reorder idea</h2>
+    <p class="sub">Tyler's idea, and we think it's the best one in the project: at the end of an
+    appointment you save the exact look you just installed, and the client re-orders it later with one
+    tap. You'd never have to answer &ldquo;how much do I need&rdquo; twice for the same person.</p>
+    <p class="ref">see marketing/06-in-chair-reorder.md &middot; unlocks: repeat orders, solves the pre-order problem</p>
+    
+    <div class="qa">
+      <div class="qn">6a</div>
+      <div>
+        <p class="qq">Would you actually use this at the end of a four-hour appointment?</p>
+        <p class="qw">Be honest — if it takes more than about twenty seconds it won't happen, and we'd rather build something else. The tool we've mocked up is three taps and a text message.</p>
+        <p class="qb">Until we know: we won't build it further.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">6b</div>
+      <div>
+        <p class="qq">How would you want to send it? Text, or the StyleSeat chat?</p>
+        <p class="qw">Your StyleSeat has chat turned on, so both are possible.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">6c</div>
+      <div>
+        <p class="qq">How long between a sew-in and the re-install, typically?</p>
+        <p class="qw">One of your reviews mentions 2–3 months of maintenance. If we know the real cycle we can time the reminder instead of guessing.</p>
+        <p class="qb">Until we know: no reminder timing.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>7. Quick yes/no &mdash; two minutes</h2>
+    <p class="ref">register #27, #21, #22, #24, #4 &middot; mostly free fixes</p>
+    
+    <div class="qa">
+      <div class="qn">7a</div>
+      <div>
+        <p class="qq">Is <strong>FlyyHair</strong> (one word) the right spelling everywhere?</p>
+        <p class="qw">Your StyleSeat says FlyyHair, your Shopify says "Flyy Hair" with a space. We'll standardise on whichever you want.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">7b</div>
+      <div>
+        <p class="qq">Your StyleSeat category is set to <strong>Makeup</strong> — did you mean that?</p>
+        <p class="qw">If you're listed under Makeup, people searching StyleSeat for hair in Lafayette may not see you at all. It's a two-minute fix and it may be costing you bookings right now.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">7c</div>
+      <div>
+        <p class="qq">Which Instagram should the site point to?</p>
+        <p class="qw">@flyyskye has 4,369 followers; @_flyyhair has 792. Both currently link to StyleSeat and neither links to the store.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">7d</div>
+      <div>
+        <p class="qq">Can deposits be turned on for your StyleSeat plan?</p>
+        <p class="qw">Right now none of your 49 services take one. That's fine locally, but we can't ask someone to fly in for an appointment that nothing holds.</p>
+        <p class="qb">Until we know: no travel bookings.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">7e</div>
+      <div>
+        <p class="qq">Do you have your logo as an original file? Illustrator, PNG, anything large?</p>
+        <p class="qw">We can only pull a 300-pixel version off StyleSeat, which is too small to print or use on a homepage. We also guessed your blues from that image — if you know the actual colour codes, that's better.</p>
+        <p class="qb">Until we know: we're approximating your brand.</p>
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">7f</div>
+      <div>
+        <p class="qq">Is a Google Business listing something you want?</p>
+        <p class="qw">You don't have one. It's the one place a national competitor can't reach you. Complicated slightly by the salon address question in 4d.</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="qsec">
+    <h2>8. Anything we haven't asked</h2>
+    
+    <div class="qa">
+      <div class="qn">8a</div>
+      <div>
+        <p class="qq">What do clients ask you most often that this site doesn't answer?</p>
+        <p class="qw">You've had 1,000+ appointments. You know the questions better than we do.</p>
+        
+      </div>
+    </div>
+    
+    <div class="qa">
+      <div class="qn">8b</div>
+      <div>
+        <p class="qq">Is there anything on the mock site that's wrong, or doesn't sound like you?</p>
+        <p class="qw">Everything on it came from your StyleSeat profile, your reviews, and the price list — but the tone is ours, and it should sound like you.</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="qahead" style="margin-top:44px;background:var(--ink2);color:var(--pale);border-left:3px solid var(--sage)">
+    <strong>What happens after you answer</strong>
+    <p>The bundle chart goes straight onto every product page. The hair details replace the
+    &ldquo;being confirmed&rdquo; note. Shipping and returns become real policy pages. And this page
+    gets deleted.</p>
+  </div>
+</div></div>
+<footer><div class="wrap">
+  <div class="fl"><a href="collections/shop-all.html">Shop</a><a href="collections/weft-bundles.html">Bundles</a><a href="collections/5x5-hd-lace-closures.html">Closures</a><a href="collections/bundle-deals.html">Bundle Deals</a><a href="collections/hair-extensions-lafayette.html">Lafayette</a><a href="book.html">Book</a><a href="installing-elsewhere.html">Installing elsewhere</a></div>
+  <p><strong>We publish a spec once we can stand behind it.</strong> Hair type, lace construction and
+  colourability are being confirmed with our supplier and will appear on every product page before
+  launch. Until then you'll see price, length and texture &mdash; and nothing we can't back up.</p>
+  <p><strong>Mock site.</strong> Prices from <code>data/catalog.json</code> (confirmed). Services and
+  reviews mirrored from Skye's StyleSeat profile. Product photography is intentionally absent &mdash;
+  StyleSeat serves 300px maximum, so real imagery has to come from Skye.</p>
+  <p>Skye Glaude &middot; Lafayette, Louisiana &middot; #LouisiHAIRnimal</p>
+</div></footer>
+</body></html>

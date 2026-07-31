@@ -1,0 +1,5 @@
+# Pre-launch mock for client review. Not the live store.
+# The real storefront is flyyhair.com — this must never be indexed or it would
+# compete with it and surface "MOCK SITE" in search results.
+User-agent: *
+Disallow: /
